@@ -1,0 +1,29 @@
+{
+    "name": "AppClima",
+    "version": "1.0.0",
+    "description": "La app indica el clima de la ciudad que se le indique: Para esto utilizo la API de OpenWeatherMap.\r App creadad con Javascript, webpack, Bootstrap4, usando localstorage.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack -p",
+        "dev": "webpack-dev-server -d"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/demianvselko/AppClima.git"
+    },
+    "keywords": [],
+    "author": "Demian Vselko",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/demianvselko/AppClima/issues"
+    },
+    "homepage": "https://github.com/demianvselko/AppClima#readme",
+    "dependencies": {
+        "css-loader": "^4.3.0",
+        "html-webpack-plugin": "^4.4.1",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
